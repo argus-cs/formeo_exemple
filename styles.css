@@ -1,0 +1,32 @@
+:root {
+  --base-bg-color: #f2f2f2;
+  --base-font-size: 16px
+}
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: var(--base-font-size);
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 2.667rem 4rem;
+  background-color: var(--base-bg-color);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.2em;
+}
